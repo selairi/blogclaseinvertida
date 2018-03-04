@@ -1,0 +1,91 @@
+<!doctype html>
+<head>
+    <title>La clase invertida</title>
+    <meta charset='utf-8' />
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+    <style>
+        body {{
+            background-color: #fafafa;
+        }}
+        header {{
+            background-color: #aaaaaa;
+            color: white;
+            padding: 5px;
+            font-size: 50px;
+            font-family: 'Amatic SC', cursive;
+            margin-bottom: 20px;
+            box-shadow: 10px 10px 5px 0px rgba(153,153,153,1);
+        }}
+        h1 {{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            font-family: 'Amatic SC', cursive;
+        }}
+        article {{
+            padding: 10px;
+            background-color: snow;
+            border: 1px solid black;
+            max-width: 640px;
+            margin-bottom: 10px;
+            font-family: 'Quattrocento', serif;
+            font-size: 18px;
+            text-align: justify;
+            hyphens: auto;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 10px 10px 5px 0px rgba(153,153,153,1);
+        }}
+        table, td, tr {{
+            border-collapse: collapse;
+            border: 1px solid black;
+        }}
+        
+        article > h1 > a, header > a {{
+            color: white;
+            text-decoration: none;
+        }}
+        
+        .navegacion {{
+            font-family: 'Amatic SC', cursive;
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+        }}
+        
+        .navegacion > a {{
+            padding: 10px;
+            background-color: grey;
+            color: white;
+            font-family: 'Amatic SC', cursive;
+            font-size: 24px;
+            display: inline-block;
+            margin: 5px;
+            text-decoration: none;
+        }}
+        
+        .navegacion > a:hover {{
+            background-color: white;
+            color: black;
+        }}
+    </style>
+</head>
+<body>
+
+<header>
+<a href='index.html'>La clase invertida</a>
+</header>
+
+<div>
+{articulos}
+</div>
+
+<div class='navegacion'>
+    {navegacion}
+</div>
+
+</body>
+</html>
